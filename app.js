@@ -63,7 +63,7 @@ function checkAns(idx){
         }
         h3.innerHTML=`High score: ${highScore-1}`;
 
-        h2.innerHTML=`Game over! Your score was <b>${level-1}</b> <br>Press any key to start`;
+        h2.innerHTML=`Game over! Your score was <b>${level-1}</b> <br>Press Play Again button to retry`;
         startBtn.innerText="Play Again"
         document.querySelector('body').style.backgroundColor='red';
         setTimeout(function(){
