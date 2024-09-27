@@ -1,0 +1,88 @@
+body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.btn{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 20%;
+    border: 8px solid black;
+    margin: 2rem;
+    cursor: pointer;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+.red{
+    background-color: #d95980;
+}
+.yellow{
+    background-color: #f99b45;
+}
+.green{
+    background-color: #63aac0;
+}
+.purple{
+    background-color: #819ff9;
+}
+
+#startBtn{
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#startBtn:hover {
+    background-color: #16a085; 
+    transform: scale(1.05); 
+}
+
+#startBtn:active {
+    background-color: #13876a; 
+    transform: scale(0.98);
+}
+
+.flash{
+    background-color: white;
+}
+
+.userflash{
+    background-color: green;
+}
+
+@media (max-width: 520px){
+    .btn{
+        height: 6rem;
+        width: 6rem;
+        border: 5px solid black;
+        margin: 1rem;
+    }
+    #startBtn{
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 310px){
+    .btn{
+        height: 4rem;
+        width: 4rem;
+        border: 3px solid black;
+        margin: 0.5rem;
+    }
+    #startBtn{
+        padding: 0.4rem 0.8rem;
+        font-size: 0.7rem;
+        border-radius: 5px;
+    }
+}
