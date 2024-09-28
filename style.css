@@ -60,6 +60,36 @@ body{
     background-color: green;
 }
 
+
+.instructions {
+    border: 5px solid #d99b45; 
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    font-size: 1.2rem;
+    color: #333;
+    text-align: left; 
+    margin-top: 20px; 
+    width: 55%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    padding: 0 8px 0 5px;
+}
+ol{
+    padding-left: 2rem;
+    margin-left: 0;
+}
+
+.instructions h3 {
+    padding-left: 1rem;
+    margin-bottom: 10px;
+    font-size: 1.5rem; 
+    color: #d99b45;
+}
+
+
+
+
 @media (max-width: 520px){
     .btn{
         height: 6rem;
@@ -70,6 +100,10 @@ body{
     #startBtn{
         padding: 0.5rem 1rem;
         font-size: 1rem;
+    }
+    .instructions{
+        border: 3.5px solid #d99b45;
+        font-size: 0.9rem;
     }
 }
 
@@ -84,5 +118,9 @@ body{
         padding: 0.4rem 0.8rem;
         font-size: 0.7rem;
         border-radius: 5px;
+    }
+    .instructions{
+        border: 3px solid #d99b45;
+        font-size: 0.6rem;
     }
 }
